@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   calls.any? do |calls|
-    if calls.count > 4
+    if calls.size > 4
       true
     else
       false

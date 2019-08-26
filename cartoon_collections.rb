@@ -1,12 +1,7 @@
 def roll_call_dwarves(name)# code an argument here
   # Your code here
-  counter = 1
-  result = []
-  name.each do |name|
-    result << roll_call_dwarves(name, counter)
-    counter += 1
-  end
- result
+  name.each_with_index do |name, index|
+    puts "#{index} #{name}"
 end
 
 def summon_captain_planet# code an argument here

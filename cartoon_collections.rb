@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.map do |planeteer_calls|
-    prints "#{planeteer_calls.capitalize}!"
+    print "#{planeteer_calls.capitalize}!"
   end
 end
 
